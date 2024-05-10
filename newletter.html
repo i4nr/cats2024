@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nocti Practical | Newsletter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <p class="navImgMap">
+            <img src="images/graphic_navbar.jpg" alt="NAV BAR" class="navImg" usemap="#navmap">
+        </p>
+        <map name="navmap">
+            <area shape="rect" coords="5, 28, 80, 85" href="index.html" alt="Home">
+            <area shape="rect" coords="83, 25, 123, 85" href="history.html" alt="History">
+            <area shape="rect" coords="126, 25, 216, 85" href="desc.html" alt="Description">
+            <area shape="rect" coords="218, 25, 295, 85" href="char.html" alt="Characteristics">
+            <area shape="rect" coords="298, 25, 352, 85" href="temp.html" alt="temperament">
+            <area shape="rect" coords="355, 25, 445, 85" href="newletter.html" alt="newsletter">
+        </map>
+    </nav>
+
+
+    <header>
+        <h1>Cats!</h1>
+        <blockquote>The World's #1 Pet</blockquote>
+    </header>
+
+
+    <main>
+        <h2 class="bigh2">Newsletter</h2>
+        <div class="table-container form-container">
+        <form action="mailto:cte-ian.weems@sllboces.org" method="get">
+        <table>
+            <caption>If you are interested in learning more about Cats, please sign up for our monthly newsletter</caption>
+
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr> <!-- row 1 -->
+                    <td rowspan="4">
+                        <img src="images/cat3.jpg" alt="picture of gray long hair tabby">
+                    </td>
+                    <td>
+                        <label for="fName">Full Name</label>
+                        <input type="text" id="fName" name="fName" required>
+                    </td>
+                </tr>
+
+                <tr> <!-- row 2 -->
+                    <td>
+                        <label for="lName">Last Name</label>
+                        <input type="text" id="lName" name="fName" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit" class="but">
+                        <input type="reset" value="Reset" class="but">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </main>
+
+    <footer>
+        <div class="footerNav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="desc.html">Description</a></li>
+            <li><a href="char.html">Characteristics</a></li>
+            <li><a href="temp.html">Temperament</a></li>
+            <li><a href="newletter.html">Newsletter</a></li>
+            <li><a href="template.html">Link to my Template</a></li>
+        </ul>
+    </div>
+    <div class="footerText">
+        <h5>2024 Ian Weems</h5>
+        <h5>Last Updated: 05.02.2024</h5>
+    </div>
+    </footer>
+</body>
+</html>

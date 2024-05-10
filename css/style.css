@@ -1,0 +1,156 @@
+/*
+COLOR PALLETTE
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange
+*/
+
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CCAF9D;
+    font-family: Playfair Display Sc;
+}
+
+main{
+    padding: 10%;
+}
+
+header {
+    background-color: #804720;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+p {
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+ol{
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+blockquote, p {
+    color: #5C3317;
+}
+
+.h2big {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+h1, blockquote {
+    color: #CCAF9D;
+}
+
+.footerNav a {
+    color: #CCAF9D;
+    text-decoration: none;
+}
+
+.footerNav a:hover {
+    color: aliceblue;
+}
+
+.footerNav ul {
+    list-style-type: none;
+}
+
+.footerText {
+    padding-top: 2%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5%;
+}
+
+.navImgMap {
+    background-color: #804720;
+}
+
+.navImg {
+    margin-left: 32%;
+}
+
+.imgMain {
+    float: left;
+    border: #804720 3px solid;
+    margin: 2%;
+    width: 30%;
+}
+
+.imgMain2 {
+    float: right;
+    border: #804720 3px solid;
+    margin: 2%;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    background-color: #804720;
+    padding: 2%;
+}
+
+form {
+    background: #804720;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+}
+
+form input {
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.table-container {
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+caption {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+td img {
+    border: #fff 3px solid;
+}
+
+.but {
+    background-color: #fff;
+    border-radius: 5px;
+}
